@@ -1,0 +1,19 @@
+Author="JerkinMerkin";
+OnLoadName = "OP Queen's Stallions";
+OnLoadMission = "South Zagoria, Chernarus";
+overviewPicture = "rebels2.jpg";
+
+enableDebugConsole = 1;
+
+respawn = BASE;
+respawndelay = 30;
+respawnOnStart = 0;
+respawnDialog = 0;
+DisabledAI = true;
+
+class Header
+{
+	gameType = COOP; // Game type, see 'class' columns in the table below
+	minPlayers = 4; //min # of players the mission supports
+	maxPlayers = 102; //max # of players the mission supports
+};
